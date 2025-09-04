@@ -40,7 +40,7 @@ app.get('/', (req, res) => {
 });
 
 // サーバを起動するコード
-const port = 80;
+const port = 3000;
 try{
   app.listen(port, () => {
     console.log(`Server is running on http://0.0.0.0:${port}`);
